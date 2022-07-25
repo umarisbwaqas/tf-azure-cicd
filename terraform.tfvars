@@ -1,5 +1,5 @@
-name_prefix                   = "tf"
-resource_group_name           = "tfpoc"
+name_prefix                   = "azdevops"
+resource_group_name           = "azdevops"
 location                      = "East US"
 virtual_network_name          = "tfpoc"
 virtual_network_address_space = ["10.13.0.0/16"]

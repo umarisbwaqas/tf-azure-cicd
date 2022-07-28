@@ -1,7 +1,7 @@
 name_prefix                   = "azdevops"
 resource_group_name           = "azdevops"
 location                      = "East US"
-virtual_network_name          = "azuredevops"
+virtual_network_name          = "tfpoc"
 virtual_network_address_space = ["10.13.0.0/16"]
 Subnetlist = {
   "subnet_1" = { name = "vm_subnet", address = "10.13.1.0/24", service_delegation = "false" },
